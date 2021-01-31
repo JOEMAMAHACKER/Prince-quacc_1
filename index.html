@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Prince Quacc's website</title> 
+        <meta charset="UTF-8">
+        <meta name="description" content="The best website on the Internet. Come on click it clicky clicky">
+        <meta name="author" content="Prince quacc">
+       </head>
+       <style>
+        middletext{
+            position: absolute;
+                left: 50%;
+                transform: translate(-50%,0%);
+        }
+        coloryellow{
+            color:yellow;
+        }
+        .texttest{
+                animation: mover 6s linear infinite;
+            }
+            @keyframes mover{
+                0%{
+                    color: red;
+                }50%{
+                    color: blue;
+                }75%{
+                    color: green;
+                }
+                100%{
+                    color: red;
+                }
+            }
+    </style>
+    <body style=" background-image: url('images.jpg'); background-repeat: no-repeat; background-attachment: fixed;  background-size: cover;">
+        <middletext>
+    <div> <button class="texttest" type="button" onclick="homebutton()">Home</button> <button type="button" onclick="youtube2button()" >Click this</button> <button type="button" onclick="youtubebutton()">Click</button> <button type="button" onclick="discordbutton()" >Join</button> <button class="texttest" type="button" onclick="lol()">Is it something???</button> </div>
+    <coloryellow>
+    <div><h1>Prince quacc's new website!</h1></div>
+    <div><b>Music below is not mine</b></div>
+    <div id="nothing"></div>
+    <audio controls>
+        <source src="S M U G - D A N C I N -.mp3" type="audio/mpeg"></source>
+    </audio>
+    </middletext>
+    </coloryellow>
+    <script>
+        function discordbutton(){
+            window.location.href = "https://discord.gg/3tUubmjAp2"
+        }
+        function youtubebutton(){
+            window.location.href = "https://www.youtube.com/channel/UC0b1jDceJzkin2Vr1EGAW0w"
+        }
+        function youtube2button(){
+            window.location.href = "https://www.youtube.com/channel/UCftpmhgngX5wHIwkarawbmg"
+        }
+        function homebutton(){
+            window.location.href = "https://bit.ly/3cqonDV"
+        }
+        function lol(){
+            document.getElementById("nothing").innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/watch?v=fgldNxXXGRw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        }
+    </script>
+    </body>
+</html> 

@@ -1,0 +1,12 @@
+texttest{
+    animation: mover 6s linear infinite;
+}
+@keyframes mover{
+    0%{
+        color: red;
+    }50%{
+        color: blue;
+    }100%{
+        color: green;
+    }
+}
